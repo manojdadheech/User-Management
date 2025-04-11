@@ -32,9 +32,16 @@ Stores user background details:
 - A `User` has many `Detail`
 - A `Detail` belongs to a `User`
 
+```bash
+git clone https://github.com/manojdadheech/User-Management.git
+cd User-Management
 
-
+composer install
 npm install && npm run dev
+
+cp .env.example .env
+php artisan key:generate
+
 
 create a database in mysql name userdetails
 
